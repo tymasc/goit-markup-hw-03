@@ -34,11 +34,10 @@ ul, ol {
 }
 
 .container {
-    max-width: 1440px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto
 }
 
 .nav-bar {
@@ -49,6 +48,7 @@ ul, ol {
 .logo-company {
     margin-left: 156px;
     margin-right: 76px;
+    display: flex;
 }
 
 .logo-company-web {
@@ -59,17 +59,12 @@ ul, ol {
     line-height: 1.17;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
+    display: inline-block;
 }
 
 .logo-company-studio {
     color: #2E2F42;
-}
-.menu-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 40px;
 }
 
 .list-navbar {
@@ -113,7 +108,6 @@ ul, ol {
 
 .info-company {
     display: flex;
-    margin-left: 940px;
     gap: 40px;
 }
 
@@ -279,6 +273,10 @@ ul, ol {
     padding-bottom: 120px;
 }
 
+.section-advantages {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
 .list-ourportfolio {
     display: flex;
     flex-wrap: wrap;
