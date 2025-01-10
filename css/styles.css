@@ -81,11 +81,15 @@ ul, ol {
     letter-spacing: 0.02em;
 }
 
+
+
 .list-navbar-info {
     font-weight: 500;
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .list-navbar-info:hover {
@@ -116,8 +120,6 @@ ul, ol {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .address-info:hover {
